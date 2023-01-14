@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="css/animation.css">
+	<link rel="stylesheet" type="text/css" href="css/transition.css">
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<title>Sharjah Indian School | Arava</title>
+	<link rel="icon" type="image/x-icon" href="images/icon.ico">	
+</head>
+	<style>
+.wrap {
+  overflow-x:hidden;
+}
+.slideInRight {
+  animation-name: slideInFromLeft;
+}
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+}
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+}
+
+</style>
+<style>
+div.slide-up {
+  height:200px;
+  overflow:hidden;
+}
+div.slide-up p {
+  animation: 4s slide-up;
+  margin-top:0%;
+}
+
+@keyframes slide-up {
+  from {
+    margin-top: 100%;
+    height: 300%; 
+  }
+
+  to {
+    margin-top: 0%;
+    height: 100%;
+  }
+}
+</style>
+<body onload="show();">
+    <div id = "myDiv">
+      <div>
+        <img id = "myImage" src = "images/splash.gif" class="intro" loop=infinite>
+        </div>
+    </div>
+    <div id="content" style="display: none;">
+	<header>
+		<div>
+			<a href="index.html"><img src="images/sis.png" class="logo"></a>
+		</div>
+		<div class="slide-up">
+			<nav>
+				<ul>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="academic.html">Academic</a></li>
+					<li><a href="admission">Admission</a></li>
+					<li><a href="circulars">Circulars</a></li>
+					<li><a href="gallery.html">Gallery</a></li>
+					<a href="#"><button class="login">Login</button></a>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+
+	<center>
+		<div class="slideshow-container">
+
+			<div class="mySlides fade">
+			  <img src="images/banner.jpg" class="banner">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="images/banner1.jpg" class="banner">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="images/bannermain.png" class="banner">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="images/banner3.jpg" class="banner">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="images/banner.png" class="banner">
+			</div>
+
+			<div class="mySlides fade">
+			  <img src="images/banner1.jpg" class="banner">
+			</div>
+ 			<div class="bottom-left">Sharjah Indian School</div>
+ 			<button class="discover">Discover the School</button>
+		</div>
+	</center>
+
+	<div class="slideInRight animated">
+		<section id="news">
+			<div class="container mt-5">
+	   			<div class="row">
+	        		<div class="col-md-12">
+	            		<div class="d-flex justify-content-between align-items-center breaking-news bg-white">
+	                		<div class="d-flex flex-row flex-grow-1 flex-fill justify-content-center bg-danger py-2 text-white px-1 news"><span class="d-flex align-items-center">&nbsp;Flash News</span></div>
+	                			<marquee class="news-scroll" behavior="scroll" direction="left" onmouseover="this.stop();" onmouseout="this.start();"> 
+			                	<a href="#">
+			                	»ASSET EXAM: FOR BOYS OF GRADE III TO IX
+			         			</a> 
+			         			<span class="dot"></span>
+			         			<a href="#">
+			         			»POSTER CONTEST
+			         			</a> 
+			         			<span class="dot"></span> 
+			         			<a href="#">
+			         			»SCIENCE EXHIBITION-FOR GRADE VI TO IX ONLY 
+			         			</a>
+	               				 </marquee>
+	            			</div>
+	        				</div>
+	    				</div>
+					</div>
+		</section>
+	</div>
+	<section>
+		<h1 class="welcome-text">Welcome to Sharjah Indian School - Boys</h1>
+		<p class="description">Senior Secondary School, Owned 
+		and Managed by Indian Association Sharjah. 
+		Established in 1979 with 280 pupils and 13 teachers</p>
+	</section>
+
+
+	<center>
+		<img src="images/hr.png" class="hr">
+	</center>
+	<div class="square-wrapper">
+  <div class="square square-transition">
+  	<section id="about">
+			<div>
+				<h1 class="sis-text">SHARJAH INDIAN SCHOOL BR. JUWAIZA</h1>
+			</div>
+			<div id="content">
+				<p class="description-content">Sharjah Indian School is a Senior Secondary School, Owned and Managed by Indian Association Sharjah. Established in 1979 with 280 pupils and 13 teachers, the school stands as a landmark in the annals of the Indo- UAE friendship. Today after 43 years, the school has a strength of 5528 (total) students and 305(total) teachers. The school is approved and licensed by the Sharjah Private Education Authority (SPEA), UAE and is affiliated to Central Board of Secondary Education New Delhi, India.</p>
+				<img src="images/school.jpg" class="shj">
+			</div>
+		</section>
+  </div>
+</div>
+		
+	 <div class="container reveal">
+		<section id="admission">
+			<h1 class="admission-text ">Admission</h1>
+			<p class="description-admission">The School invites aspiring applicants. Admission opened for the academic year 2022-2023. If you are a keen learner with kindling curiosity and a sense of adventure, then The Sharjah Indian School is the place to be.</p>
+			<center>
+				<a href=""><button class="online-registeration">Online Registeration</button></a>
+			</center>
+		</section>
+	</div>
+	
+		<section>
+			<h1 class="academic-text">Academic</h1>
+
+			<div id="acabtn">
+				<div id="academicbtns">
+					<a href="">
+						<div>
+						<img src="images/curriculum.png" class="aca-btn"><br>
+						<p class="aca-text">Curriculum</p>
+					</div>
+					</a>
+					<a href="">
+						<div>
+						<img src="images/exam.png" class="aca-btn"><br>
+						<p class="aca-text">Exams</p>
+					</div>
+					</a>
+					<a href="">
+						<div>
+						<img src="images/bell.png" class="aca-btn"><br>
+						<p class="aca-text">Bell Timings</p>
+					</div>
+					</a>
+					<a href="">
+						<div>
+						<img src="images/curriculum.png" class="aca-btn"><br>
+						<p class="aca-text">Time Table</p>
+					</div>
+					</a>
+					<a href="">
+						<div>
+						<img src="images/calendar.png" class="aca-btn"><br>
+						<p class="aca-text">Calendar</p>
+					</div>
+					</a>
+					<a href="">
+						<div>
+						<img src="images/syllabus.png" class="aca-btn"><br>
+						<p class="aca-text">Syllabus</p>
+					</div>
+					</a>
+					
+				</div>
+			</div>
+		</section>
+
+
+		<section id="vma">
+			<div>
+				<img src="images/students.png" class="students">
+			</div>
+			<div>
+				<img src="images/vma.png" class="vma">
+			</div>
+		</section>
+
+
+		<section id="uecca">
+			<div id="ue">
+				<h1 class="ueccatext">Upcoming Events</h1>
+				<p >NiL</p>
+			</div>
+
+			<div id="cca">
+				<h1 class="ueccatext">Co-Curricular Activities</h1>
+				<marquee>
+					<div>
+						<p>Sports Day Council</p>
+						<p>Nature Club Inaugration</p>
+						<p>Summer Vacation</p>
+						<p>Annual Meeting</p>
+						<p>PCM Examination</p>
+
+					</div>
+			</div>
+		</section>
+</body>
+<script type="text/javascript" src="js/slideshow.js"></script>
+<script type = "text/javascript">
+    function show() {
+        document.getElementById("myDiv").style.display="block";
+        setTimeout("hide()", 100); // 1 wait, change the delay here
+    }
+
+    function hide() {
+        document.getElementById("myDiv").style.display="none";
+        document.getElementById("content").style.display="block";
+    }
+</script>
+<script type="text/javascript">
+	$(document).ready(function(){
+			
+	$('#newsTicker1').breakingNews();			
+
+});
+	
+</script>
+<script type="text/javascript">
+	const square = document.querySelector('.square');
+square.classList.remove('square-transition');
+
+// Create the observer, same as before:
+const observer = new IntersectionObserver(entries => {
+  entries.forEach(entry => {
+    if (entry.isIntersecting) {
+      square.classList.add('square-transition');
+      return;
+    }
+
+    square.classList.remove('square-transition');
+  });
+});
+
+observer.observe(document.querySelector('.square-wrapper'));
+</script>
+
+</html>
