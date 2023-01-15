@@ -88,6 +88,7 @@ ul li a:hover {
   position: absolute;
   top: 50%;  left: 50%;
   width: 100%;
+  height: 100%;
   transform: translate(-50%, -50%);
 }
 .welcome-text {
@@ -128,6 +129,10 @@ ul li a:hover {
 }
 .hr {
 	width: 150px;
+}
+.hr1 {
+	width: 150px;
+	margin-top: 60px;
 }
 #flashnews {
 	width: 80%;
@@ -195,7 +200,7 @@ ul li a:hover {
 	font-size: 20px;
 	border-radius: 30px;
 	font-family: 'Poppins', sans-serif;
-	margin-top: 40px;
+	margin-top: 20px;
 }
 .online-registeration:hover {
 	opacity: 60%;
